@@ -213,7 +213,7 @@ var defaultKubernetesFeatureGates = map[featuregate.Feature]featuregate.FeatureS
 	RemainingItemCount:                  {Default: true, PreRelease: featuregate.Beta},
 	ServerSideApply:                     {Default: true, PreRelease: featuregate.GA},
 	StorageVersionHash:                  {Default: true, PreRelease: featuregate.Beta},
-	UnauthenticatedHTTP2DOSMitigation:   {Default: true, PreRelease: featuregate.Beta},
+	UnauthenticatedHTTP2DOSMitigation:   {Default: false, PreRelease: featuregate.Beta},
 	StorageVersionAPI:                   {Default: false, PreRelease: featuregate.Alpha},
 	WatchBookmark:                       {Default: true, PreRelease: featuregate.GA, LockToDefault: true},
 	APIPriorityAndFairness:              {Default: true, PreRelease: featuregate.Beta},
